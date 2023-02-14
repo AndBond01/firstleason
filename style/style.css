@@ -46,7 +46,6 @@ margin-top: 30px;
   z-index: 2;
 position: absolute;
 right: 0px;
-top: 64px;
 bottom: 0px;
 width: 765px;
 height: 608px;
@@ -56,7 +55,58 @@ height: 608px;
   background-color: #2f80ed;
   position: absolute;
   z-index: 1;
+  top: 64px;
   right: 0;
-  width: 568px;
-  height: 568px;
+  width: 500px;
+  height: 500px;
+}
+
+.two-columns{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description{
+  margin-top: 100px;
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+}
+
+.brief{
+ width: 175px;
+ line-height: 1.2;
+ font-size: 18px;
+ font-weight: normal;
+ color: #2f80ed;
+}
+
+.main-text{
+  width: 80%;
+  min-width: 784px;
+}
+
+.paragraph:first-child{
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.paragraph:last-child{
+  margin-top: 30px;
+  margin-bottom: 0px;
+
+}
+
+.paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.paragraph_bold{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+
 }
